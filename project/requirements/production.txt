@@ -1,5 +1,0 @@
-# App Mode: production
-# Packages required for this application mode.
-
-
--r _includes/base.txt
