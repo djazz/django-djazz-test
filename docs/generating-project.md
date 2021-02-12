@@ -2,7 +2,7 @@
 
 ```bash
 pip install copier
-copier git@github.com:djazz/django-djazz-test2.git <PROJECT_DIR>
+copier git@github.com:djazz/django-jazz-test2.git <PROJECT_DIR>
 ```
 
 Then you’ll be asked the following questions:
