@@ -1,0 +1,55 @@
+# Doc: https://www.mkdocs.org/user-guide/configuration/
+
+site_name: "Django Jazz"
+site_description: "Django Jazz is a philosophy for Django to play its magic."
+site_author: "Pascal Polleunus <pascal+github@polleunus.be>"
+repo_url: https://github.com/djazz/django-jazz
+repo_name: "GitHub: djazz/django-jazz"
+extra:
+  # Version of the documentation (usually the same as the project without the `patch` part).
+  version: 0.1
+
+nav:
+  - Home: index.md
+  - Generating a Project: generating-project.md
+  - Installation: installation.md
+  - File Structure: file-structure.md
+  - Configuration: configuration.md
+  - Settings: settings.md
+  - Third Parties: third-parties.md
+  - Quality Assurance: quality-assurance.md
+  - Dj CLI: dj-cli.md
+  - Terminology: terminology.md
+
+theme:
+  name: material  # Doc: https://squidfunk.github.io/mkdocs-material/
+  palette:
+    scheme: slate
+    primary: teal
+    accent: yellow
+
+extra_css:
+  - css/dango-jazz.css
+
+# Ref: https://squidfunk.github.io/mkdocs-material/reference/abbreviations/
+# Ref: https://python-markdown.github.io/extensions/
+markdown_extensions:
+  - admonition
+  # - codehilite:
+  #     guess_lang: false
+  # - pymdownx.critic
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight
+  # - pymdownx.mark
+  # - pymdownx.superfences
+  # - toc:
+  #     permalink: true
+
+plugins:
+  - search
+
+# Relative to this file.
+docs_dir: docs
+site_dir: docs-build

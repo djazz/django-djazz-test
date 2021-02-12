@@ -1,0 +1,40 @@
+.md-main__inner {
+  margin-bottom: 1.5rem;
+}
+
+:root {
+  --md-admonition-icon--decision: unset;
+}
+.md-typeset .admonition.decision,
+.md-typeset details.decision {
+  border-color: #00bfa5;
+}
+.md-typeset .decision > p {
+  font-size: 0.8rem;
+}
+.md-typeset .decision > .admonition-title,
+.md-typeset .decision > summary {
+  background-color: rgba(0,191,165,.1);
+  /* font-size: 0.8rem; */
+  padding-left: 2.5rem;
+  /*
+  background-color: transparent;
+  font-weight: 300;
+  padding: 1rem 1rem 1rem 3rem;
+  */
+}
+.md-typeset .decision > .admonition-title::before,
+.md-typeset .decision > summary::before {
+  background-color: transparent;
+  content: "👉";
+  left: 0.7rem;
+  width: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.15;
+  -webkit-mask-image: unset;
+          mask-image: unset;
+}
+.md-typeset .decision > p:not(.admonition-title) {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}

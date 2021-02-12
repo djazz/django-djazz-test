@@ -1,0 +1,23 @@
+# Dj CLI
+
+- @TODO: install (filesystem, .env, venv, pip, db, migrate, static)
+    - @TODO: uninstall, clean/purge
+- @TODO: filesystem (install, clean/purge)
+- @TODO: pyenv (install, available/latest)
+- @TODO: venv (create, recreate, remove)
+- @TODO: pip (install, upgrade, outdated)
+- @TODO: db (create, recreate, remove, shell)
+- @TODO: migrations (make, initial, empty, data, dry run, migrate, rollback)
+    - @TODO: hack: delete (migrations files, db objects, django_migrations entries)… that's ac@TODO: tually a rollback!?
+- @TODO: data (dump, load)
+- @TODO: static (install, uninstall, upgrade, build, clean/purge, collect, server)
+- @TODO: server (django + external, static)
+- @TODO: shell
+- @TODO: sitemaps (ping)
+- @TODO: messages (make, compile, download)
+- @TODO: qa (lint, test)
+- @TODO: deploy (django, static, files, on remote)
+- @TODO: generate (.env, secret key, url password)
+- @TODO: third party apps
+    - @TODO: sortable (sort)
+    - @TODO: reversion (init)

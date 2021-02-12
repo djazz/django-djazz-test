@@ -1,0 +1,7 @@
+# Extra: docs
+# Packages related to the documentation.
+# Note: The latest version of all these packages may be installed.
+
+
+mkdocs                                 # https://github.com/mkdocs/mkdocs
+mkdocs-material                        # https://github.com/squidfunk/mkdocs-material

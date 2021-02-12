@@ -1,0 +1,30 @@
+# Metadata Doc: https://www.python.org/dev/peps/pep-0621/
+# PyPA Core metadata specifications: https://packaging.python.org/specifications/core-metadata/
+# Build System Doc: https://www.python.org/dev/peps/pep-0518/
+
+[project]
+name = "django-jazz"
+version = "0.1.0"
+description = "Django Jazz is a philosophy for Django to play its magic."
+authors = [{name = "Pascal Polleunus", email = "pascal+django-jazz@polleunus.be"}]
+readme = "README.md"
+license = "MIT"
+classifiers = [  # Values: https://pypi.org/classifiers/
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Framework :: Django :: 3.0",
+  "Framework :: Django :: 3.1",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Software Development",
+]
+
+[project.urls]
+"Repository" = "https://github.com/djazz/django-jazz"
+"Documentation" = "https://django-jazz.readthedocs.io"
+"Bug Tracker" = "https://github.com/djazz/django-jazz/issues"
